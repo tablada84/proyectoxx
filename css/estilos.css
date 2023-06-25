@@ -37,9 +37,10 @@ body {
 }
 .hamburgesa {
   position: fixed;
+
   top: 30px;
   right: 30px;
-  background: #c4bfbf;
+  background: #f1efef;
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -57,16 +58,16 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  transition: transform 0.3s ease-in-out;
-  transform: translate(110%);
   box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  transform: translate(100%);
 }
 
 .spread {
-  translate: (0);
+  transform: translate(0);
 }
 .nav-navegacion a {
-  color: #2e2a2a;
+  color: #f0e1e1;
   text-decoration: none;
 }
 .titulo {
